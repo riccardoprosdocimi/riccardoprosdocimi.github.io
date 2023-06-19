@@ -229,7 +229,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1620px) {
 
 			.container {
-				width: 960px;
+				width: 964px;
 			}
 
 		}
@@ -2277,19 +2277,19 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 300px;
+				width: 330px;
 			}
 
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				margin-left: 330px;
 			}
 
 		/* Main */
 
 			#main {
-				margin-left: 300px;
+				margin-left: 330px;
 			}
 
 	}

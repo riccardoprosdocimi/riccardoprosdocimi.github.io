@@ -6,7 +6,7 @@
 
 (function($) {
 
-	var	$window = $(window),
+	let	$window = $(window),
 		$body = $('body'),
 		$nav = $('#nav');
 
@@ -27,16 +27,16 @@
 		});
 
 	// Nav.
-		var $nav_a = $nav.find('a');
+		let $nav_a = $nav.find('a');
 
 		$nav_a
 			.addClass('scrolly')
 			.on('click', function(e) {
 
-				var $this = $(this);
+				let $this = $(this);
 
 				// External link? Bail.
-					if ($this.attr('href').charAt(0) != '#')
+					if ($this.attr('href').charAt(0) !== '#')
 						return;
 
 				// Prevent default.
@@ -53,7 +53,7 @@
 			})
 			.each(function() {
 
-				var	$this = $(this),
+				let	$this = $(this),
 					id = $this.attr('href'),
 					$section = $(id);
 
@@ -78,7 +78,7 @@
 								$section.removeClass('inactive');
 
 							// No locked links? Deactivate all links and activate this section's one.
-								if ($nav_a.filter('.active-locked').length == 0) {
+								if ($nav_a.filter('.active-locked').length === 0) {
 
 									$nav_a.removeClass('active');
 									$this.addClass('active');

@@ -2461,6 +2461,10 @@ input, select, textarea {
 				margin: 1.5em 1.25em 1.25em 1.25em;
 			}
 
+			#logo h1 {
+				font-size: 0.85em;
+			}
+
 			#nav ul li a {
 				padding: 0.5em 1.25em 0.5em 1.25em;
 			}

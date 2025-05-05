@@ -1741,6 +1741,59 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+/* Experience */
+
+	.experience-list {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.experience-entry {
+		display: flex;
+		align-items: flex-start;
+		gap: 20px;
+		background-color: white;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+	}
+
+	.company-logo {
+		width: 64px;
+		height: 64px;
+		object-fit: contain;
+	}
+
+	.experience-details {
+		flex: 1;
+	}
+
+	.role-title {
+		font-size: 20px;
+		font-weight: 600;
+		margin: 0;
+	}
+
+	.company-name {
+		font-size: 16px;
+		color: #666;
+		margin: 4px 0;
+	}
+
+	.experience-meta {
+		font-size: 14px;
+		color: #888;
+		margin-bottom: 10px;
+	}
+
+	.experience-description {
+		margin: 0;
+		padding-left: 18px;
+		list-style-type: disc;
+		color: #333;
+	}
+
 /* Image */
 
 	.image {
@@ -1756,7 +1809,7 @@ input, select, textarea {
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
+			background: #ffff00;
 		}
 
 			.image.avatar48 img {

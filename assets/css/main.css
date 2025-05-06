@@ -1792,6 +1792,7 @@ input, select, textarea {
 		padding-left: 18px;
 		list-style-type: disc;
 		color: #333;
+		text-align: left;
 	}
 
 /* Image */

@@ -1795,6 +1795,75 @@ input, select, textarea {
 		text-align: left;
 	}
 
+/* Certifications */
+
+	.certifications {
+		padding: 80px 0;
+		background-color: #ffffff;
+	}
+
+	.certifications-list {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.certification-item {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		background-color: #f4f4f4;
+		padding: 20px;
+		border-radius: 12px;
+		box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+	}
+
+	.certification-logos {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-right: 20px;
+		min-width: 120px;
+	}
+
+	.badge-logo {
+		width:250px;
+		height: auto;
+		margin-bottom: 10px;
+	}
+
+	.company-logo {
+		width: 80px;
+		height: auto;
+		opacity: 0.9;
+	}
+
+	.certification-details {
+		flex: 1;
+	}
+
+	.certification-details h3 {
+		margin: 0 0 8px 0;
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	.certification-details p {
+		margin: 4px 0;
+		color: #555;
+	}
+
+	.certification-details a {
+		color: #007bff;
+		text-decoration: underline;
+	}
+
+	.certification-details p img {
+		vertical-align: middle;
+		height: 30px;
+		width: auto;
+	}
+
 /* Image */
 
 	.image {
